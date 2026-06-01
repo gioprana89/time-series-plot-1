@@ -11,11 +11,31 @@ from io import BytesIO
 # =========================================================
 # Page configuration
 # =========================================================
+
+
 st.set_page_config(
     page_title="Two-Panel Time Series Visualization",
     page_icon="📈",
     layout="wide"
 )
+
+st.markdown(
+    """
+    ### Developed by Prana Ugiana Gio
+
+    **Website:** [pranaugi.com](https://pranaugi.com/)
+
+    **YouTube:** [STATKOMAT](https://www.youtube.com/@STATKOMAT)
+
+    **Online Store:** [lynk.id/statkomat](https://lynk.id/statkomat)
+
+    **Training Data for This Application:**  
+    [Download training data from Google Drive](https://drive.google.com/drive/folders/1iSadK2HPOtB90a-JE5QVnJPolnuIzqzV?usp=sharing)
+
+    ---
+    """
+)
+
 
 
 # =========================================================
